@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('ubuntuRegular.extension') format('truetype');
+}
+
+body {
+    background-color: #f3f2ee;
+    padding: auto;
+}
+
+.logo {
+    max-width: 200px;
+    max-height: 100px;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+
+}
+
+.fonttitle {
+    font-family: Ubuntu;
+    font-weight: 600;
+}
+
+#box {
+    text-align: center;
+    border: solid #fff;
+    padding: 20px;
+    background-color: #fff;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.input {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #666666;
+    border-width: 1px;
+    box-sizing: border-box;
+}
+
+label {
+    padding: 5px;
+    display: block;
+    text-align: left;
+    font-family: Ubuntu;
+    font-weight: 500;
+    color: #666666;
+    
+}
+
+button {
+    width: 375px;
+    height: 57px;
+    border-radius: 50px;
+    background-color: #0067be;
+    font-family: Ubuntu;
+    font-size: larger;
+    margin: auto;
+    border: none;
+    color: #fff;
+}
+
+p {
+    color: #666666;
+    font-family: Ubuntu;
+    display: inline-block;
+    font-size: small;
+}
+
+.termos {
+    color: #0067be;
+    text-decoration: none;
+    font-weight: bold;
+}
